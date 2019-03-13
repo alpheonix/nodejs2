@@ -2,9 +2,11 @@
 <html>
   <head>
     <title>{{ title }}</title>
+    <link rel="icon" type="image/png" href="public/images/logo.png" />
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <img src="/Users/alpheonix/Desktop/cours/nodejs2/public/images/logo.png" >
     <h1>{{ title }}</h1>
     <p>Welcome to {{ title }}</p>
   </body>
