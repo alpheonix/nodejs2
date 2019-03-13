@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'node App' });
 });
 
+router.post('/ville',function(req, res) {
+  res.render("ville",{ ville: req.body.nom_ville,desc: req.body.desc});
+});
+
 module.exports = router;
