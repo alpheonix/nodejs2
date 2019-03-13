@@ -7,8 +7,8 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/ville',function(req, res) {
-  var desc = req.body.desc.replace(/(?:\r\n|\r|\n)/g, '<br>');
-  res.render("ville",{ ville: req.body.nom_ville,desc: desc});
+
+  res.render("ville",{ ville: req.body.nom_ville,desc: req.body.desc});
 });
 
 module.exports = router;
