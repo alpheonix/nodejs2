@@ -9,7 +9,7 @@
     
     <h1><img src="images/logo.png" >{{ title }}</h1>
     <p>{{ ville }}</p>
-    <p>{{ desc }}</p>
+    <p>{{{ desc }}}</p>
 </form>
 
   </body>
