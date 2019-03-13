@@ -18,6 +18,8 @@ router.post('/ville', function (req, response) {
 
     response.render("ville", { ville: req.body.nom_ville, desc: req.body.desc, longt: body.longt, latt: body.latt });
   });
+
+  
   
 
 });
