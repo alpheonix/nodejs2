@@ -8,6 +8,7 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'node App' });
 });
 
+
 router.post('/ville', async  function (req, response) {
   console.log(req.body.nom_ville);
 
